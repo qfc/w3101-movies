@@ -12,15 +12,5 @@
 # It's strongly recommended to check this file into your version control system.
 
 ActiveRecord::Schema.define(:version => 0) do
-class Movies
-  include MongoMapper::Document
 
-  key :title,     String
-  key :url,       String
-  key :director,  String
-  key :cast,      Array
-  key :rate,      Integer, :default => 0
-  
- 
 end
-
