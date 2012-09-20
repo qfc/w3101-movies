@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @movie.name %>
+</p>
+
+
+<p>
+  <b>Producer:</b>
+  <%= @movie.producer %>
+</p>
+
+<p>
+  <b>Written by:</b>
+  <%= @movie.written_by %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @movie.description %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @movie.language %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @movie.country %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>
