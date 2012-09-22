@@ -1,19 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  userID: MyString
   first_name: MyString
   last_name: MyString
-  sex: MyString
-  state: MyString
   age: 1
-  country: MyString
+  state: MyString
+  sex: MyString
 
 two:
-  userID: MyString
   first_name: MyString
   last_name: MyString
-  sex: MyString
-  state: MyString
   age: 1
-  country: MyString
+  state: MyString
+  sex: MyString

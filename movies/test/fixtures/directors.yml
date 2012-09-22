@@ -3,13 +3,11 @@
 one:
   first_name: MyString
   last_name: MyString
-  movies: MyString
   age: 1
   country: MyString
 
 two:
   first_name: MyString
   last_name: MyString
-  movies: MyString
   age: 1
   country: MyString

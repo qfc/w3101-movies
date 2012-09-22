@@ -18,7 +18,7 @@ class DirectorsControllerTest < ActionController::TestCase
 
   test "should create director" do
     assert_difference('Director.count') do
-      post :create, director: { age: @director.age, country: @director.country, first_name: @director.first_name, last_name: @director.last_name, movies: @director.movies }
+      post :create, director: { age: @director.age, country: @director.country, first_name: @director.first_name, last_name: @director.last_name }
     end
 
     assert_redirected_to director_path(assigns(:director))
@@ -35,7 +35,7 @@ class DirectorsControllerTest < ActionController::TestCase
   end
 
   test "should update director" do
-    put :update, id: @director, director: { age: @director.age, country: @director.country, first_name: @director.first_name, last_name: @director.last_name, movies: @director.movies }
+    put :update, id: @director, director: { age: @director.age, country: @director.country, first_name: @director.first_name, last_name: @director.last_name }
     assert_redirected_to director_path(assigns(:director))
   end
 

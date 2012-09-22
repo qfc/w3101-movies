@@ -2,10 +2,10 @@
 
 one:
   content: MyString
-  created_at: 2012-09-19 21:38:12
+  created_at: 
   rating: 1
 
 two:
   content: MyString
-  created_at: 2012-09-19 21:38:12
+  created_at: 
   rating: 1

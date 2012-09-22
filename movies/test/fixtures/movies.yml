@@ -2,20 +2,14 @@
 
 one:
   name: MyString
-  director: MyString
   producer: MyString
-  written_by: MyString
-  description: MyText
-  language: MyString
   country: MyString
-  rating: 1
+  language: MyString
+  publish_year: 1
 
 two:
   name: MyString
-  director: MyString
   producer: MyString
-  written_by: MyString
-  description: MyText
-  language: MyString
   country: MyString
-  rating: 1
+  language: MyString
+  publish_year: 1

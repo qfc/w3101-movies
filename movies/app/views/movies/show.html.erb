@@ -5,20 +5,14 @@
   <%= @movie.name %>
 </p>
 
-
 <p>
   <b>Producer:</b>
   <%= @movie.producer %>
 </p>
 
 <p>
-  <b>Written by:</b>
-  <%= @movie.written_by %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @movie.description %>
+  <b>Country:</b>
+  <%= @movie.country %>
 </p>
 
 <p>
@@ -27,10 +21,9 @@
 </p>
 
 <p>
-  <b>Country:</b>
-  <%= @movie.country %>
+  <b>Publish year:</b>
+  <%= @movie.publish_year %>
 </p>
-
 
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |

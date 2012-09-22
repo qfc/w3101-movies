@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Movies::Application.config.secret_token = '50b1aeaa2d4340b2b7159593416b826dba04dcb07baeb66119a159136c19dd03c7350bf8380e44d30948952c19a262cca26ea708763f42bc445586ccd490aa22'
+Movies::Application.config.secret_token = '0b653dffaac3c45610995cabe976740ee8a2cfd57a1a434ee44d3ba4a69e0fc94855c5284aaa5ef20ad0067e7f502003088bfed2b0b6225e41c74d4dd6298248'
