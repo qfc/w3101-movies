@@ -6,9 +6,8 @@ class User
   key :age, Integer
   key :state, String
   key :sex, String
-  many :movies
-  many :comments
-  many :directors
+  has_many :comments
+  has_many :movies, :through => :comments
   
 
 end

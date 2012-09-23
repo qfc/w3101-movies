@@ -6,8 +6,8 @@ class Movie
   key :country, String
   key :language, String
   key :publish_year, Integer
-  belongs_to :director
-  many :comments
-  many :users
+  has_many :comments
+  has_many :users, :through => :comments
+  
 
 end
