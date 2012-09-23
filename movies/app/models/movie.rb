@@ -8,6 +8,5 @@ class Movie
   key :publish_year, Integer
   has_many :comments
   has_many :users, :through => :comments
-  
 
 end
