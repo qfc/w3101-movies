@@ -8,6 +8,7 @@ class User
   key :sex, String
   many :movies
   many :comments
+  many :directors
   
 
 end
