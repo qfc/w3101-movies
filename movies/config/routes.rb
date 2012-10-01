@@ -1,13 +1,16 @@
 Movies::Application.routes.draw do
-  resources :directors
-
   resources :users
 
   resources :comments
-
-  resources :directors
-
+ 
   resources :movies
+  resources :sessions,  only: [:new, :create, :destroy]
+ 
+
+  match '/logging_in',  to: 'sessions#create', via: :create
+  match '/sign_up',  to: 'sessions#new', :as => 'register'
+  match '/logging_out', to: 'sessions#destroy', via: :delete
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -58,7 +61,7 @@ Movies::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'movies#index'
+  root :to => 'sessions#new'
 
   # See how all your routes lay out with "rake routes"
 
